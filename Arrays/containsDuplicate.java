@@ -3,7 +3,7 @@ package Arrays;
 import java.util.Arrays;
 import java.util.HashSet;
 
-public class conatinsDuplicate {
+public class containsDuplicate {
     public boolean containsDuplicate(int[] nums){
     Arrays.sort(nums);
         for(int i=1;i<nums.length;i++){
