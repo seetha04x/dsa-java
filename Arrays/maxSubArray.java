@@ -3,7 +3,7 @@ public class maxSubArray {
     public static int maxSubArray(int nums[]){
         //using kadane algorithm
         int sum=nums[0],max=nums[0];
-        for(int i=0;i<nums.length;i++){
+        for(int i=1;i<nums.length;i++){
             sum=Math.max(nums[i],sum+nums[i]);// to start with the nums[i] is the calculated sum is less, so the sum can start from the greater nums[i]
             max=Math.max(max,sum);
         } 
@@ -11,7 +11,7 @@ public class maxSubArray {
     }
 
     // using prefix array
-    
+
     //  public static void maxSubArray(int arr[],int n){
     //     int i,j,sum=0;
     //     int large=Integer.MIN_VALUE;
