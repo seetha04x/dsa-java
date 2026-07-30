@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class decode {
     public static void main(String[] args) {
-        String s="10[b]";
+        String s="3[a]2[bc]";
         int n= s.length();
 
         Stack<Integer> num=new Stack<>();
