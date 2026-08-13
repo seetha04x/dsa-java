@@ -27,12 +27,12 @@ public class chocola {
             }
         }
          while(v<costVer.length){
-            vp*=2;
+            vp++;
             cost+=(costVer[v]*hp);
             v++;
          }
          while (h<costHor.length) {
-            hp*=2;
+            hp++;
             cost+=(costHor[h]*vp);
             h++;
          }
